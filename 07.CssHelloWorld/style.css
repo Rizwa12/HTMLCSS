@@ -1,0 +1,33 @@
+/* applying properties by class */
+.heading1{
+    color: royalblue;
+    background-color: yellowgreen;
+    width: 30%;
+    font-size: 40px;
+    font-weight: italic;
+    font-family: sans-serif;
+}
+/* by id apply properties */
+#firstHeading{ 
+    color: burlywood;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: blue;
+    width: 25%;
+    height: 18%;
+}
+form{
+    background-color: orange;
+    margin-top: 5px;
+
+}
+
+legend{
+    font-size: 20px;
+    font-style: italic;
+}
+input{
+    border: 1px solid red;
+    
+}
