@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <style>
+        h1{
+            color:rgb(120, 100, 150);
+        }
+    </style> -->
+</head>
+<body>
+    <h1 id="firstHeading">Hello Css</h1>
+    <h2 class="heading1">Registration Form</h2>
+    <form>
+
+        <fieldset>
+            <legend>Bio Data</legend>
+            <label for="nameInput">Name:</label>
+            <br>
+            <input required minlength="3" maxlength="20" type="text" id="nameInput" placeholder="Enter Full Name">
+            <br>
+            <label for="rollInput">Roll Number:</label>
+            <br>
+            <input required type="text" id="rollInput" placeholder="Roll Number">
+            <br>
+            <label for="dobInput">Date of Birth</label>
+            <br>
+            <input required type="date" id="dobInput">
+
+        </fieldset>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input required minlength="6" maxlength="20" size="20" type="password" id="password">
+            <br>
+            <label for="inputUrl">Input Url:</label>
+            <br>
+            <input required pattern="https?://.+" type="text" id="inputUrl">
+            <br>
+            <label for="commentInput">Your Comment:</label>
+            <br>
+            <textarea maxlength="50" rows="6" cols="50" id="commentInput"
+            placeholder="Enter Comment"></textarea>
+            <br>
+            <select name="instrument" size="3" multiple="multiple">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard" selected="selected">Keyboard</option>
+                <option value="bass">Bass</option>
+            </select>
+            <br>
+            <label for="profilePhotoInput">Profile Photo</label>
+            <br>
+            <input type="file" accept=".pdf" id="profilePhotoInput">
+        </fieldset>
+        <input type="submit" value="submit">
+
+
+    </form>
+    
+</body>
+</html>
