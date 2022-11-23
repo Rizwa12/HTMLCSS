@@ -1,0 +1,66 @@
+*{
+    color:red;
+}
+/* p{
+    background-color: rgb(143, 97, 159);
+} */
+#introduction{
+    background-color: rgb(143, 97, 159);
+}
+ .note{
+    background-color: rgb(16, 48, 233);
+    font-style: italic;
+} 
+p.note{
+    border: 10px solid green;
+    border-radius: 10px;
+}
+li > a {
+    color: green;
+}
+h1>span{
+    background-color: yellow;
+}
+span + p{
+    color: orange;
+    background-color: blueviolet;
+}
+body>span+p{
+    background-color: fuchsia;
+}
+p{
+    background-color: black;
+}
+span ~p{
+    border: 2px solid purple;
+}
+#first{
+    color: green;
+    background-color: white;
+}
+#first+span{
+     color: chartreuse;
+     background-color: white;
+}
+#first+span+span{
+    color:darkblue;
+    background-color: white;
+}
+#first+span+span+span{
+    color:darkcyan;
+    background-color: white;
+}
+#first+span+span+span+span{
+    color:darkmagenta;
+    background-color: white;
+}
+#first{
+    color: yellow;
+    background-color: white;
+}
+P{
+    color:rgb(180,22,200);
+}
+h2{
+    columns: #0000ff;
+}
