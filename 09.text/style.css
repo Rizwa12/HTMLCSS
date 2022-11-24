@@ -1,0 +1,45 @@
+/* p{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.para{
+    font-family: Arial, Helvetica, sans-serif
+}
+ .small{
+    font-size: 10px;
+} 
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Light.ttf');
+}
+h1{
+    font-family: Roboto;
+    
+    /* text-shadow: h-shadow v-shadow blur-radius blue;  */
+
+}
+/*pseudo element syntax below*/
+h1::first-letter{ 
+    font-style: italic;
+}
+h1:hover{
+    text-shadow: 5px 2px 2px blue; 
+}
+.right{
+    text-align: right;
+}
+.right:hover{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+input:focus{
+    color:pink;
+    font-size: 32px;
+    border: 1px solid pink;
+}
+h4{
+    text-shadow: 2px 1px 1px yellow;
+}
+p[class]{
+    border: 1px solid green;
+}
