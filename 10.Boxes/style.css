@@ -1,0 +1,46 @@
+
+/* p{
+    width: 100px;
+} */
+/* p{
+    max-width: 750px;
+    min-width: 350px;
+} */
+/* .small{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+     overflow: hidden; 
+     overflow: scroll; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* div{
+    border: 1px solid black;
+    margin: 20px;
+    display: inline-block;
+    padding: 5px;
+    width: 100px;
+    text-align: right;
+   
+} */
+.one{
+    margin: 20px;
+    background-color: red;
+    border: 1px solid black;
+
+  
+}
+.two{
+    margin: 20px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 20px;
+   
+   
+   
+}
